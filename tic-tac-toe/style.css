@@ -5,10 +5,10 @@
 }
 
 body {
-    color: #545454;
     display: flex;
     font-family: sans-serif;
     justify-content: center;
+    color: #545454;
 }
 
 .container {
@@ -18,11 +18,26 @@ body {
     border-radius: 25px;
 }
 
+.title {
+    text-align: center;
+}
+
+.title span{
+    color: #F2EBD3;
+}
+
 .status-action {
     display: flex;
     justify-content: space-around;
     margin-top: 25px;
     font-size: 25px;
+}
+
+.reset{
+    cursor: pointer;
+}
+.reset:hover {
+    color: #F2EBD3;
 }
 
 .game-grid {
@@ -39,19 +54,4 @@ body {
     width: 150px;
     background: #14BDAC;
     cursor: pointer;
-}
-
-.reset{
-    cursor: pointer;
-}
-.reset:hover {
-    color: #F2EBD3;
-}
-
-.title {
-    text-align: center;
-}
-
-.title span{
-     color: #F2EBD3;
 }
